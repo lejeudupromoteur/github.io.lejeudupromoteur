@@ -1,0 +1,1 @@
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/actualites/index.rst:8: WARNING: undefined label: boites ? id?es (if the link has no caption the label must precede a section header)
