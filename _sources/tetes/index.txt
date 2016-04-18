@@ -1,3 +1,5 @@
+.. _`Têtes d'ampoules`:
+
 Têtes d'ampoules
 ================
 

@@ -12,7 +12,7 @@ c’est envolé et maintenant tout est mélangé !  ::
     (3) Melahan veilleuse          (c) jolie fille               (Z) Le fils du gendarme llulu
     (4) Melahan entier             (d) parcelle                  (T) Une élue lulue
     (5) Melahan grand              (e) créche                    (U) Le promoteur tuteur
-    (6) Melahan colis                                            V) Les voisins zinzins
+    (6) Melahan colis                                            (V) Les voisins zinzins
 
 
 Aide notre chanteur à remettre les choses en ordre. Tu dois re-composer:
