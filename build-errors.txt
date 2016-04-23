@@ -1,0 +1,1 @@
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/index.rst:: WARNING: document isn't included in any toctree
