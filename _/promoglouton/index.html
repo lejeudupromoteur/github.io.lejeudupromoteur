@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Inscription &mdash; Meylan</title>
+  <title>Promoglouton &mdash; Meylan</title>
   
 
   
@@ -32,10 +32,7 @@
   
 
   
-    <link rel="top" title="Meylan" href="../../index.html"/>
-        <link rel="up" title="Le coin des contribuables" href="index.html"/>
-        <link rel="next" title="Connexion" href="connexion.html"/>
-        <link rel="prev" title="Le coin des contribuables" href="index.html"/> 
+    <link rel="top" title="Meylan" href="../../index.html"/> 
 
   
   <script src="../../_static/js/modernizr.min.js"></script>
@@ -84,22 +81,12 @@
           
             
             
-                <ul class="current">
+                <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../actualites/index.html">Actualités</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../regles/index.html">Règles du jeu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../defis/index.html">Defis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../tetes/index.html">Têtes d&#8217;ampoules</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Participe !</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../boite.html">Boites à idées</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../abonnement.html">Abonnement</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Le coin des contribuables</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="">Inscription</a></li>
-<li class="toctree-l3"><a class="reference internal" href="connexion.html">Connexion</a></li>
-<li class="toctree-l3"><a class="reference internal" href="modifications.html">Modifications</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../../meta/index.html">Participe !</a></li>
 </ul>
 
             
@@ -130,15 +117,11 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../../index.html">LeJeuDuPromoteur</a> &raquo;</li>
       
-          <li><a href="../index.html">Participe !</a> &raquo;</li>
-      
-          <li><a href="index.html">Le coin des contribuables</a> &raquo;</li>
-      
-    <li>Inscription</li>
+    <li>Promoglouton</li>
       <li class="wy-breadcrumbs-aside">
         
             <a
-                    href="https://github.com/lejeudupromoteur/lejeu/edit/master/meta/contribuables/inscription.rst"
+                    href="https://github.com/lejeudupromoteur/lejeu/edit/master/_/promoglouton/index.rst"
                     class="fa fa-github"
                     target="_blank">
                 <svg    aria-hidden="true"
@@ -156,34 +139,72 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="inscription">
-<h1>Inscription<a class="headerlink" href="#inscription" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Si tu n&#8217;as pas déjà de compte GitHub, met un message dans la boîte à idées et nous
-nous chargerons de créer ce compte pour toi. Nous t&#8217;enverons par mél :</p>
-<ul class="simple">
-<li>un nom de contribuable (&#8220;login&#8221;),</li>
-<li>un mot de passe (&#8220;password&#8221;).</li>
-</ul>
-<p><strong>Attend d&#8217;avoir reçu le mél</strong> concernant ton compte, puis passe à l&#8217;étape suivante.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Si tu veux tu peux aussi créer un compte toi même via <a class="reference external" href="https://github.com/join">https://github.com/join</a></p>
+  <div class="section" id="promoglouton">
+<h1>Promoglouton<a class="headerlink" href="#promoglouton" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Aide notre ami promoteur a manger tous les arbres. C&#8217;est un vrai glouton. Attention a ne pas te faire attraper pour
+les habitants
+zinzins qui surveille la quartier !</p>
+<div id="shim">
+    for font face
 </div>
+<style type="text/css">
+
+    @font-face {
+        font-family: 'BDCartoonShoutRegular';
+        src: url('../../_static/BD_Cartoon_Shout-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    #pacman {
+        // height:450px;
+        width:342px;
+        margin:20px auto;
+    }
+
+    #shim {
+        font-family: BDCartoonShoutRegular;
+        position:absolute;
+        visibility:hidden
+    }
+
+    h1 {
+        font-family: BDCartoonShoutRegular;
+        text-align:center;
+    }
+
+    /* body { width:342px; margin:0px auto; font-family:sans-serif; } */
+    /* a { text-decoration:none; } */
+</style>
+
+
+<div id="pacman">
+    <!-- pacman zone -->
 </div>
+
+<script src="../../_static/pacman/pacman.js"></script>
+<script src="../../_static/modernizr-1.5.min.js"></script>
+<script>
+
+    var el = document.getElementById("pacman");
+
+    if (        Modernizr.canvas
+            && Modernizr.localstorage
+            && Modernizr.audio
+            && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
+        window.setTimeout(function () {
+            PACMAN.init(el, "../../_static/promoglouton/");
+        }, 0);
+    } else {
+        el.innerHTML = "Désolé, mais tu n'as pas un navigateur récent<br /><small>" +
+                        "(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
+    }
+</script></div>
 
 
            </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="connexion.html" class="btn btn-neutral float-right" title="Connexion" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="index.html" class="btn btn-neutral" title="Le coin des contribuables" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
