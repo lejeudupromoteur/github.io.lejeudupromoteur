@@ -45,7 +45,7 @@ zinzins qui surveille la quartier !
         <!-- pacman zone -->
     </div>
 
-    <script src="../../_static/pacman/pacman.js"></script>
+    <script src="../../_static/promoglouton/pacman.js"></script>
     <script src="../../_static/modernizr-1.5.min.js"></script>
     <script>
 
