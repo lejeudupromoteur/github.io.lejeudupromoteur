@@ -1,2 +1,14 @@
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:36: WARNING: Definition list ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:44: WARNING: Definition list ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:50: WARNING: Definition list ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:56: WARNING: Definition list ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:61: WARNING: Definition list ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:63: WARNING: Inline emphasis start-string without end-string.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:65: WARNING: Block quote ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:70: WARNING: Definition list ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:82: WARNING: Block quote ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:84: WARNING: Definition list ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:88: WARNING: Definition list ends without a blank line; unexpected unindent.
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:89: WARNING: Block quote ends without a blank line; unexpected unindent.
 /media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/index.rst:: WARNING: document isn't included in any toctree
 /media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/defis/meylan-keskizondi-et-kiladi.rst:33: WARNING: undefined label: meta-jeu (if the link has no caption the label must precede a section header)
