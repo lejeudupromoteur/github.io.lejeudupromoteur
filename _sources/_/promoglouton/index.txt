@@ -8,13 +8,13 @@ Guide le promoteur glouton, fait vite, et ce sera **10 points pour chaque arbre 
 
 **comportement "pillules"** a adapter selon possibilité les redessiner en phantomes.
 
-:version 1:
+:version pillule=?:
     Tu te demandes où sont les élus lulus ? Ils sont pas là la pour t'aider. Ils ont vendu le terrain pour avoir
     des sous et c'est tout. En fait certains ne connaissaient même pas le terrain, alors...
     Oublie les, tu ne peux pas compter sur eux. Aide simplement le promoteur glouton à manger le maximum d'arbres.
 
-version 2
-'''''''''
+:version pillule=elus:
+
     Heureusement le promoteur glouton a des amis à la mairie. Il a demandé a quatre élus lulus de rester au
     quatre coins du quartier pour pour maintenir l'ordre. Chaque fois que promoglouton encontre un élus lulus
     celui-ci fais un discours qui hypnothyse tous les habitants. Pendant ce temps tu peux faire ce que tu veux
@@ -22,9 +22,6 @@ version 2
     Alors cours vite.
 
 
-croiserais
-
-Hypnoptyse
 ..  raw:: html
 
     <div id="shim">
