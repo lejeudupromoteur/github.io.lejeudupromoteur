@@ -1,6 +1,10 @@
 Desinformations
 ===============
 
+..  note::
+
+    Cette page est en cours de construction. Lundi il devrait y avoir plus de choses.
+
 Ici c'est le coin presse. C'est l'espace des informations. Il suffit de peu,
 juste d'un espace comme celui-ci, et hop on passe des informations à desinformations.
 Alors fais attention.
