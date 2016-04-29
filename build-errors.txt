@@ -1,2 +1,1 @@
 /media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/index.rst:: WARNING: document isn't included in any toctree
-/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/defis/meylan-keskizondi-et-kiladi.rst:33: WARNING: undefined label: meta-jeu (if the link has no caption the label must precede a section header)
