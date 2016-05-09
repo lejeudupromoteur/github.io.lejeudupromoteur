@@ -18,6 +18,7 @@ Voici déjà des contributions de nos lecteurs. On attend :ref:`tes bétises<boi
     meylan-inovalue
     meylan-ma-ville
     meylan-cahutes
+    meylan-carton
     meylan-complexe
     meylan-couleur
     meylan-diplome-concertation
