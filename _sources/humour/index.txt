@@ -1,13 +1,22 @@
-Humour
-======
+Humour douteux
+==============
 
-Si tu cherches les jeux, ils sont dans la section jeux. Mais tu sais, dans la vie on peut pas que jouer, il faut aussi
-rigoler !
+Un peu d'**humour douteux** pour te faire penser.
 
-Voici des contributions de nos lecteurs. Envoie nous la tienne !
+
+..  figure:: images/pensee.png
+    :align: center
+
+    **"La pensée naît du doute"** -- Laurent Generfort
+
+En attendant tes bétises, voici déjà des contributions de nos lecteurs.
 
 .. toctree::
 
-    meylan-betonnage-partage
+    meylan-quelles-ambitions
+    meylan-cahutes
     meylan-couleur
+    meylan-diplome-concertation
     meylan-figurines
+    meylan-dense
+    fete-des-betises
