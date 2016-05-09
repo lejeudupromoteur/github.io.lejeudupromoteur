@@ -87,7 +87,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../../jeux/index.html">Jeux</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../humour/index.html">Humour</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../tetes-ampoules/index.html">Têtes d&#8217;ampoules</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../desinformations/index.html">Desinformations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../contribue/index.html">Contribue !</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../abonne-toi/index.html">Abonne-toi !</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../petitionne/index.html">Pétitionne !</a></li>
@@ -145,68 +144,91 @@
             
   <div class="section" id="promoglouton">
 <h1>Promoglouton<a class="headerlink" href="#promoglouton" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Aide notre ami promoteur a manger tous les arbres du terrain zinzin. C&#8217;est un vrai glouton ce promoteur !
+<!--
+<img id="map-image" src="../../_static/promoglouton/images/promoglouton.png" />
+
+    <img id="scream" width="220" height="277" src="../../_static/promoglouton/images/promoglouton.png" alt="The Scream">
+
+    <canvas id="myCanvas" width="240" height="297" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <script>
+    window.onload = function() {
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        var img = document.getElementById("scream");
+        ctx.drawImage(img, 20, 20, 50,30);
+    }
+
+</script>
+--><div id="promoglouton-zone">
+
+    <div id="shim">
+        for font face
+    </div>
+    <img id="tree-image" src="../../_static/promoglouton/images/tree.gif" />
+    <style type="text/css">
+
+        @font-face {
+            font-family: 'BDCartoonShoutRegular';
+            src: url('../../_static/BD_Cartoon_Shout-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        #pacman {
+            // height:450px;
+            width:684px;
+            margin:20px auto;
+            background-image: url("../../_static/promoglouton/images/level3.jpg")
+        }
+
+        #shim {
+            font-family: BDCartoonShoutRegular;
+            position:absolute;
+            visibility:hidden
+        }
+
+        h1 {
+            font-family: BDCartoonShoutRegular;
+            text-align:center;
+        }
+
+        /* body { width:342px; margin:0px auto; font-family:sans-serif; } */
+        /* a { text-decoration:none; } */
+    </style>
+
+
+    <div id="pacman">
+        <!-- pacman zone -->
+    </div>
+
+    <script src="../../_static/promoglouton/pacman.js"></script>
+    <script src="../../_static/modernizr-1.5.min.js"></script>
+    <script>
+
+        var el = document.getElementById("pacman");
+
+        if (        Modernizr.canvas
+                && Modernizr.localstorage
+                && Modernizr.audio
+                && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
+            window.setTimeout(function () {
+                PACMAN.init(el, "../../_static/promoglouton/");
+            }, 0);
+        } else {
+            el.innerHTML = "Désolé, mais tu n'as pas un navigateur récent<br /><small>" +
+                            "(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
+        }
+    </script>
+</div><p>Aide notre ami promoteur a manger tous les arbres du terrain zinzin. C&#8217;est un vrai glouton ce promoteur !
 Attention a ne pas te faire attraper pour les habitants zinzins. Heurseument ils ne sont pas bien malins
 les habitants zinzins, ils ne te cherche pas mais font juste se promener dans le quartier. Le promoteur
 a demander à 4 élus lulus de rester aux quatres coins du quartier. Si tu discute avec eux tu pourras
 enfumer les élus, en tout cas pendant un certains temps.</p>
 <p>Aide le promoteur glouton a bien gagner sa vie. Comme il est tres malin il en a trois !</p>
-<div id="shim">
-    for font face
-</div>
-<style type="text/css">
-
-    @font-face {
-        font-family: 'BDCartoonShoutRegular';
-        src: url('../../_static/BD_Cartoon_Shout-webfont.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    #pacman {
-        // height:450px;
-        width:342px;
-        margin:20px auto;
-    }
-
-    #shim {
-        font-family: BDCartoonShoutRegular;
-        position:absolute;
-        visibility:hidden
-    }
-
-    h1 {
-        font-family: BDCartoonShoutRegular;
-        text-align:center;
-    }
-
-    /* body { width:342px; margin:0px auto; font-family:sans-serif; } */
-    /* a { text-decoration:none; } */
-</style>
-
-
-<div id="pacman">
-    <!-- pacman zone -->
-</div>
-
-<script src="../../_static/promoglouton/pacman.js"></script>
-<script src="../../_static/modernizr-1.5.min.js"></script>
-<script>
-
-    var el = document.getElementById("pacman");
-
-    if (        Modernizr.canvas
-            && Modernizr.localstorage
-            && Modernizr.audio
-            && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
-        window.setTimeout(function () {
-            PACMAN.init(el, "../../_static/promoglouton/");
-        }, 0);
-    } else {
-        el.innerHTML = "Désolé, mais tu n'as pas un navigateur récent<br /><small>" +
-                        "(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
-    }
-</script><table border="1" class="docutils">
+<table border="1" class="docutils">
 <colgroup>
 <col width="71%" />
 <col width="29%" />
@@ -228,25 +250,26 @@ enfumer les élus, en tout cas pendant un certains temps.</p>
 </tr>
 </tbody>
 </table>
-<p><strong>comportement &#8220;pillules&#8221;</strong> a adapter selon possibilité les redessiner en phantomes.</p>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name" colspan="2">version pillule=?:</th></tr>
-<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Tu te demandes où sont les élus lulus ? Ils sont pas là la pour t&#8217;aider. Ils ont vendu le terrain pour avoir
-des sous et c&#8217;est tout. En fait certains ne connaissaient même pas le terrain, alors...
-Oublie les, tu ne peux pas compter sur eux. Aide simplement le promoteur glouton à manger le maximum d&#8217;arbres.</td>
-</tr>
-<tr class="field-even field"><th class="field-name" colspan="2">version pillule=elus:</th></tr>
-<tr class="field-even field"><td>&nbsp;</td><td class="field-body">Heureusement le promoteur glouton a des amis à la mairie. Il a demandé a quatre élus lulus de rester au
-quatre coins du quartier pour pour maintenir l&#8217;ordre. Chaque fois que promoglouton encontre un élus lulus
-celui-ci fais un discours qui hypnothyse tous les habitants. Pendant ce temps tu peux faire ce que tu veux
-et même avaler des habitants ! Mais attention, les habitants, quand ils se reveillent redeviennent méchants.
-Alors cours vite.</td>
+<tr class="field-odd field"><th class="field-name" colspan="2">version pillule=elus:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body"></td>
 </tr>
 </tbody>
 </table>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst</tt>, line 119)</p>
+Field list ends without a blank line; unexpected unindent.</div>
+<dl class="docutils">
+<dt>&lt;</dt>
+<dd>Heureusement le promoteur glouton a des amis à la mairie. Il a demandé a quatre élus lulus de rester au
+quatre coins du quartier pour pour maintenir l&#8217;ordre. Chaque fois que promoglouton encontre un élus lulus
+celui-ci fais un discours qui hypnothyse tous les habitants. Pendant ce temps tu peux faire ce que tu veux
+et même avaler des habitants ! Mais attention, les habitants, quand ils se reveillent redeviennent méchants.
+Alors cours vite.</dd>
+</dl>
 </div>
 
 

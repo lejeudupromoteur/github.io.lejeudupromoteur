@@ -1,1 +1,2 @@
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/promoglouton/index.rst:119: WARNING: Field list ends without a blank line; unexpected unindent.
 /media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/index.rst:: WARNING: document isn't included in any toctree
