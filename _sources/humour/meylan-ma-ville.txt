@@ -1,7 +1,7 @@
 J'aime ma ville ...
 ===================
 
-*J'aime ma ville ... et mon mari aussi !*.
+*J'aime ma ville ... et mon mari aussi !*
 
 ..  figure:: images/meylan-ma-ville-1.jpg
     :align: center
