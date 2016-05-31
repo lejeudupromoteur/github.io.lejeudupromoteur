@@ -13,7 +13,7 @@ deviner dans quel sens !
 
 ..  image:: meylan/meylan-l-etroit-non-sens.png
     :align: center
-
+    :width: 50%
 
 .. ....................................................................................................................
 
