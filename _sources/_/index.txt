@@ -35,10 +35,6 @@ jeux interactifs
 test
 ''''
 
-..  raw:: html
-    :file: embeds/mailchimp-form.html
-
-
 .. thumbnail:: zone-combats/static/zone-combats/images/arenas/0/arena.png
     :group: g1
     :width: 100px

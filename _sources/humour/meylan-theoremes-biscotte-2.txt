@@ -6,5 +6,4 @@ de démonstration.
 
 ..  figure::    images/meylan-biscotte-n2.jpg
     :align: center
-    :width: 70%
 
