@@ -1,2 +1,9 @@
-/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/attic/abonne-toi/index.rst:: WARNING: document isn't included in any toctree
 /media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/_/index.rst:: WARNING: document isn't included in any toctree
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/actualites/actualites-abonnements.rst:10: WARNING: undefined label: abonne-toi (if the link has no caption the label must precede a section header)
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/actualites/index.rst:13: WARNING: undefined label: abonne-toi (if the link has no caption the label must precede a section header)
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/jeux/index.rst:17: WARNING: undefined label: abonne-toi (if the link has no caption the label must precede a section header)
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/jeux/meylan-dalton-city.rst:10: WARNING: undefined label: abonne-toi (if the link has no caption the label must precede a section header)
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/jeux/meylan-l-etroit-non-sens.rst:15: WARNING: undefined label: abonne-toi (if the link has no caption the label must precede a section header)
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/jeux/meylan-ma-langue-au-cheval.rst:15: WARNING: undefined label: abonne-toi (if the link has no caption the label must precede a section header)
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/jeux/meylan-promoglouton/index.rst:15: WARNING: undefined label: abonne-toi (if the link has no caption the label must precede a section header)
+/media/jmfavre/Windows/DEV/LeJeuDuPromoteur/lejeu/jeux/meylan-ville-modele.rst:23: WARNING: undefined label: abonne-toi (if the link has no caption the label must precede a section header)
