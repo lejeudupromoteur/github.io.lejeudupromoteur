@@ -56,8 +56,15 @@ Va lire `une autre page`_.
 
 Rigole tout seul
 ----------------
-Pose toi la question qui tu es (ou qui tu hais) ?
+Pose toi la question *qui tu es ?* ou sa contraposée *qui tu hais ?*
+
 Si tu es capable de te moquer de toi même, alors tu n'as pas fini de rigoler ...
+
+Si tu es fatigué de rigoler tout seul
+:ref:`envoie nous tes contributions<Contribue - section>`, on rigolera tous
+ensembles.
+
+
 
 ..  _`une autre page`:
     http://cornichon-paradise.over-blog.com/d%C3%A9bat-pourquoi-des-oignons-avec-les-cornichons
